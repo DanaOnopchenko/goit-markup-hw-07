@@ -1,0 +1,17 @@
+.btn {
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 4px;
+    border-style: none;
+    
+    &--blue {
+            min-width: 200px;
+            min-height: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: var(--accent-color);
+            color: var(--white-main-color);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        }
+}
+
