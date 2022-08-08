@@ -183,7 +183,7 @@ img {
 } */
 
 /* auth-header */
-.header__contacts {
+/* .header__contacts {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -236,7 +236,7 @@ img {
 .header__email:hover,
 .header__email:focus {
   color: var(--accent-color);
-}
+} */
 
 /* hero section */
 .hero {
