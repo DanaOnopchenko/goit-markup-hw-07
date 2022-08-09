@@ -20,20 +20,28 @@
   --icons-color: #afb1b8;
 }
 
-body {
-  font-family: var(--main-font);
-  color: var(--primary-txt-color);
+.portfolio, .clients, .team, .services, .feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.services {
+  padding-top: 0;
 }
 
-.list {
+.footer__list, .clients__list, .team__list, .services__list, .feature__list, .nav__list, .header__contacts, .card-set, .filter, .socials {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.link {
+.footer__phone, .footer__email, .nav__link, .header__email, .header__phone, .card-set__card, .socials__link, .logo {
   text-decoration: none;
   color: currentColor;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--primary-txt-color);
 }
 
 h1,
@@ -111,14 +119,6 @@ img {
   background-color: var(--btn-hover-hero);
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.section--no-padding {
-  padding-top: 0;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -159,15 +159,6 @@ img {
 
 .footer__subtitle {
   margin-bottom: 20px;
-}
-
-.grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: var(--indent);
 }
 
 .socials {
@@ -807,6 +798,15 @@ img {
   color: var(--white-main-color);
 }
 
+.feature__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: var(--indent);
+}
+
 .feature__item {
   width: 270px;
 }
@@ -837,8 +837,17 @@ img {
   color: var(--secondary-txt-color);
 }
 
-.service__title {
+.services__title {
   margin-bottom: 50px;
+}
+
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: var(--indent);
 }
 
 .services__item {
@@ -869,6 +878,15 @@ img {
 
 .team__title {
   margin-bottom: 50px;
+}
+
+.team__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: var(--indent);
 }
 
 .team__item {
@@ -910,6 +928,15 @@ img {
 
 .clients__title {
   margin-bottom: 50px;
+}
+
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: var(--indent);
 }
 
 .clients__link {

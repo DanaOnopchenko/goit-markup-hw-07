@@ -1,5 +1,6 @@
 // utils styles
 @import './utils/variables';
+@import './utils/placeholders';
 
 //  base styles
 @import './base/base';
@@ -8,10 +9,9 @@
 // components styles
 @import './components/logo';
 @import './components/buttons';
-@import './components/section';
+// @import './components/section';
 @import './components/container';
 @import './components/titles';
-@import './components/grid';
 @import './components/socials';
 @import './components/subscrib-form';
 @import './components/filter-btn';
@@ -30,3 +30,4 @@
 @import './layout/team';
 @import './layout/clients';
 @import './layout/footer';
+@import './layout/portfolio'

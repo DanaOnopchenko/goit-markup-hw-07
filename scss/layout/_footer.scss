@@ -21,12 +21,16 @@
     margin-bottom: 9px;
     color: var(--white-main-color);
 }
-
+.footer__list {
+    @extend %reset-list;
+        
+}
 .footer__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
 .footer__email {
+    @extend %reset-link;
     color: var(--white-secondary-color);
     transition-property: color;
     transition-duration: 250ms;
@@ -39,6 +43,7 @@
 }
 
 .footer__phone {
+    @extend %reset-link;
     color: var(--white-secondary-color);
     transition-property: color;
     transition-duration: 250ms;

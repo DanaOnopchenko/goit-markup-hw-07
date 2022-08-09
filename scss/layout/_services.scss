@@ -1,7 +1,16 @@
-.service__title {
+.services {
+    @extend %section;
+    @extend %section--no-padding;
+}
+.services__title {
     margin-bottom: 50px;
 }
-
+.services__list {
+    @extend %reset-list;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--indent);
+}
 .services__item {
     position: relative;
 }

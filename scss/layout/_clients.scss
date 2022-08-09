@@ -1,7 +1,15 @@
+.clients {
+@extend %section;
+}
 .clients__title {
     margin-bottom: 50px;
 }
-
+.clients__list {
+    @extend %reset-list;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--indent);
+}
 .clients__link {
     display: flex;
     justify-content: center;

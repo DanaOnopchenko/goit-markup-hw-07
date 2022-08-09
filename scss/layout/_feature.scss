@@ -1,3 +1,13 @@
+.feature {
+    @extend %section;
+}
+.feature__list{
+    @extend %reset-list;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--indent);
+
+}
 .feature__item {
     width: 270px;
 }

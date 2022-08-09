@@ -1,4 +1,5 @@
 .card-set {
+    @extend %reset-list;
     display: flex;
     flex-wrap: wrap;
     gap: var(--indent);
@@ -9,6 +10,7 @@
 }
 
 .card-set__card {
+    @extend %reset-link;
     display: block;
 
     transition-property: box-shadow;

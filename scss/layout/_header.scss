@@ -8,6 +8,7 @@
 }
 
 .header__contacts {
+    @extend %reset-list;
        display: flex;
        align-items: center;
        gap: 50px;
@@ -19,6 +20,7 @@
    }
 
 .header__phone {
+    @extend %reset-link;
        display: flex;
        align-items: center;
        padding-top: 32px;
@@ -45,6 +47,7 @@
    }
 
 .header__email {
+    @extend %reset-link;
        display: flex;
        align-items: center;
        padding-top: 32px;
